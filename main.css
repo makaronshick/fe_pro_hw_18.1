@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.timer_container {
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    font-size: 60px;
+    background-color: #e7e2e2;    
+}
+
+.timer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
