@@ -42,9 +42,10 @@ function timer() {
       timerElement.textContent = `${minutes}:${seconds}`;
     } else {
       clearInterval(interval);
-      return;
     }
   }
+
+  updateTimer();
 
   const interval = setInterval(() => {
     updateTimer();
